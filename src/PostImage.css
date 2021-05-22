@@ -1,13 +1,10 @@
+.imageContainer {
+  padding: 10px 0; 
+  border-radius: 30px;
+}
+
 .imageContainer > img {
   width: 95%;
   border: 1px solid var(--borderMain);
-}
-
-canvas,
-img {
-  border-radius: 20px;
-}
-
-.gifffer-play-button {
-  background-color: red;
+  border-radius: 25px;
 }

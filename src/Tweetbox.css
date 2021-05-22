@@ -76,7 +76,7 @@
 
 .tweetBox__icons > svg {
   position: relative;
-  font-size: 27px;
+  font-size: 32px;
   color: var(--twitter-color);
   margin-left: 20px;
   transition: 0.2s linear;
