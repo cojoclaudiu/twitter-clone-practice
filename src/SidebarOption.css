@@ -4,7 +4,7 @@
   margin-left: 10px;
   margin-bottom: 20px;
   border-radius: 50%;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .twitterLogo:hover {
@@ -13,7 +13,7 @@
   color: var(--twitter-color);
   padding: 10px;
   transform: rotate(360deg);
-  transition: all .45s ease-out;
+  transition: all 0.45s ease-out;
 }
 
 .sidebarOption {

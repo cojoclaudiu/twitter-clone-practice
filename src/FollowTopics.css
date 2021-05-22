@@ -1,0 +1,53 @@
+.followTopics {
+  display: grid;
+  grid-template-columns: 1fr 110px 40px;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.followTopics:hover {
+  background-color: var(--twitter-background);
+  transition: all 0.25s ease-in;
+}
+
+.followButton {
+  display: block;
+  color: var(--twitter-color);
+  border: 1px solid var(--twitter-color);
+  text-align: center;
+  border-radius: 20px;
+  font-weight: 800;
+  padding: 8px 10px;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.followButton:hover {
+  background-color: #e8f5fe;
+}
+
+.removeTopic,
+.followTopics__header--description {
+  color: #5a7082;
+}
+
+.removeTopic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.removeTopic:hover {
+  background-color: #e8f5fe;
+  border-radius: 50%;
+  color: var(--twitter-color);
+  padding: 10px 5px;
+  transform: rotate(180deg);
+  transition: all 0.25s ease-in;
+}

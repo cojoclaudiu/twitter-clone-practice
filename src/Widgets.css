@@ -13,34 +13,57 @@
   background-color: var(--twitter-background);
 }
 
-.searchTwitter[type="text"] {
+.searchTwitter[type='text'] {
   font-size: 16px;
   padding-left: 20px;
 }
 
-.searchTwitter[type="text"]:focus {
+.searchTwitter[type='text']:focus {
   outline: none;
   border-radius: 30px;
-  border: 1px solid var(--twitter-color)
-
+  border: 1px solid var(--twitter-color);
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: var(--placeholder);
-    padding-left:20px;
-    font-size: 16px;
-    opacity: 1; /* Firefox */
-    padding-left: 20px;
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--placeholder);
+  padding-left: 20px;
+  font-size: 16px;
+  opacity: 1; /* Firefox */
+  padding-left: 20px;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: var(--placeholder);
-    font-size: 16px;
-    padding-left: 20px;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: var(--placeholder);
   font-size: 16px;
   padding-left: 20px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--placeholder);
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.widgetNews {
+  display: grid;
+  background-color: #f6f9f9;
+  grid-template-rows: 60px auto;
+  margin-top: 20px;
+
+  width: 85%;
+  border-radius: 15px;
+}
+
+.widgetNews__news {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.widgetNews__news > h2 {
+  font-weight: 900;
 }

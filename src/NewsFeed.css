@@ -1,0 +1,30 @@
+.newsFeed {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  padding: 20px 0 20px 20px;
+  transition: all 0.3s ease-in;
+}
+
+.newsFeed:not(:last-child) {
+  border-bottom: 1px solid var(--borderMain);
+}
+
+.newsFeed:last-child {
+  margin-bottom: 0;
+}
+
+.newsFeed img {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.newsFeed:hover {
+  background-color: var(--twitter-background);
+}
+
+.newsFeed:hover:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
