@@ -1,8 +1,12 @@
 .followTopics {
   display: grid;
   grid-template-columns: 1fr 110px 40px;
-  padding: 10px 20px;
+  padding: 15px 10px 15px 20px;
   align-items: center;
+}
+
+.followTopics:not(:last-child) {
+  border-bottom: 1px solid var(--borderMain);
 }
 
 .followTopics:hover {
@@ -50,4 +54,9 @@
   padding: 10px 5px;
   transform: rotate(180deg);
   transition: all 0.25s ease-in;
+}
+
+.followTopics:last-child:hover {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }

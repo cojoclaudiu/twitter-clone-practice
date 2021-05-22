@@ -1,16 +1,37 @@
 .widgetsContainer {
-  box-sizing: border-box;
   margin-top: 5px;
   width: 425px;
   margin-left: 20px;
+  overflow-y: scroll;
+}
+.searchForm {
+  padding-bottom: 10px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 100;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .searchTwitter {
+  align-self: stretch;
+  width: 85%;
   height: 50px;
   border-radius: 30px;
-  width: 85%;
   border: 0;
   background-color: var(--twitter-background);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.widgetsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.widgetsContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .searchTwitter[type='text'] {
@@ -24,23 +45,22 @@
   border: 1px solid var(--twitter-color);
 }
 
-::placeholder {
+.searchTwitter::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: var(--placeholder);
   padding-left: 20px;
   font-size: 16px;
   opacity: 1; /* Firefox */
-  padding-left: 20px;
 }
 
-:-ms-input-placeholder {
+.searchTwitter:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: var(--placeholder);
   font-size: 16px;
   padding-left: 20px;
 }
 
-::-ms-input-placeholder {
+.searchTwitter::-ms-input-placeholder {
   /* Microsoft Edge */
   color: var(--placeholder);
   font-size: 16px;
@@ -52,6 +72,7 @@
   background-color: #f6f9f9;
   grid-template-rows: 60px auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 
   width: 85%;
   border-radius: 15px;

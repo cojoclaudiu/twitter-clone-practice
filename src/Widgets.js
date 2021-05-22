@@ -2,11 +2,12 @@ import React from 'react';
 import './Widgets.css';
 import NewsFeed from './NewsFeed';
 import FollowTopics from './FollowTopics';
+import FollowUser from './FollowUser';
 
 function Widgets() {
   return (
     <section className="widgetsContainer">
-      <form>
+      <form className="searchForm">
         <input className="searchTwitter" type="text" placeholder="Search Twitter" />
       </form>
 
@@ -26,6 +27,9 @@ function Widgets() {
         <div className="widgetNews__news">
           <h2>Who to follow</h2>
         </div>
+        <FollowUser name="Tesla" username="Tesla" avatarURL="https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_400x400.png" />
+        <FollowUser name="NASA" username="NASA" avatarURL="https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg" />
+        <FollowUser name="International Space Station" username="Space_Station" avatarURL="https://pbs.twimg.com/profile_images/1189945624583720960/k6MtoeIt_400x400.jpg" />
       </div>
 
       <div className="widgetNews">
