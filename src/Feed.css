@@ -1,0 +1,29 @@
+.feedContainer {
+  width: 600px;
+  border-left: 1px solid var(--borderMain);
+  border-right: 1px solid var(--borderMain);
+  overflow-y: scroll;
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.feedContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.feedContainer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.headerFeed {
+  border-bottom: 1px solid var(--borderMain);
+  padding: 15px 0 15px 15px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 100;
+  font-size: 18px;
+  font-weight: 800;
+}

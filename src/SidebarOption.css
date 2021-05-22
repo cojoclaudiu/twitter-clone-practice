@@ -1,0 +1,62 @@
+.twitterLogo {
+  color: var(--twitter-color);
+  font-size: 40px !important;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  /* transition: .2s ease-out; */
+}
+
+.twitterLogo:hover {
+  background-color: #e8f5fe;
+  border-radius: 50%;
+  color: var(--twitter-color);
+  padding: 10px;
+  transition: .25s ease-out;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 0.1s ease-out;
+  width: max-content;
+}
+
+.sidebarOption--active {
+  color: var(--twitter-color);
+}
+
+.sidebarOption > h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 15px;
+}
+
+.tweetButton {
+  background-color: var(--twitter-color);
+  border: 0;
+  border-radius: 30px;
+  padding: 20px 80px;
+  font-size: 17px;
+  font-weight: 700;
+  display: block;
+  color: white;
+  margin-top: 30px;
+}
+
+.tweetButton:hover {
+  filter: brightness(0.94);
+  transition: color 0.1s ease-out;
+}

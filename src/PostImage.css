@@ -1,0 +1,13 @@
+.imageContainer > img {
+  width: 95%;
+  border: 1px solid var(--borderMain);
+}
+
+canvas,
+img {
+  border-radius: 20px;
+}
+
+.gifffer-play-button {
+  background-color: red;
+}

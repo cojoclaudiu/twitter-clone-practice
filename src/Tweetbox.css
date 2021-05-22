@@ -1,0 +1,94 @@
+.tweetBox__container {
+  border-bottom: 1px solid var(--borderMain);
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+
+.tweetBox {
+  display: flex;
+  align-items: center;
+}
+
+.tweetBox_input {
+  flex: 1;
+  height: 54px;
+  margin: 10px 20px;
+  border: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--placeholder);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--placeholder);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--placeholder);
+}
+
+.tweetBox_input:focus {
+  outline: none;
+}
+
+.tweetBox__avatar {
+  height: 58px;
+  border-radius: 50%;
+}
+
+.tweetBox__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-top: 1px solid var(--borderMain);
+}
+
+.tweetBox__button {
+  display: inline-flex;
+  background-color: var(--twitter-color);
+  border: 0;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+
+.tweetBox__button:hover {
+  filter: brightness(0.94);
+  transition: color 0.1s ease-out;
+  cursor: pointer;
+}
+
+.tweetBox__icons {
+  display: flex;
+  align-items: center;
+
+}
+
+.tweetBox__icons > svg {
+  position: relative;
+  font-size: 27px;
+  color: var(--twitter-color);
+  margin-left: 20px;
+  transition: 0.2s linear;
+  padding: 5px;
+}
+
+.tweetBox__icons > svg:hover {
+  background-color: #e8f5fe;
+  border-radius: 50%;
+  color: var(--twitter-color);
+  transform: scale(1.2);
+  transition: transform .2s;
+  padding: 5px;
+  cursor: pointer;
+}
