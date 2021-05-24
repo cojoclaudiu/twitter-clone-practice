@@ -23,6 +23,7 @@
   padding: 15px 20px;
   margin-bottom: 20px;
   transition: color 0.2s ease-out;
+
 }
 
 .sidebarOption:hover {
@@ -59,4 +60,13 @@
 .tweetButton:hover {
   filter: brightness(0.94);
   transition: color 0.1s ease-out;
+}
+
+@media only screen and (max-width: 1280px) {
+  .tweetButton {
+    border-radius: 30px;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
 }

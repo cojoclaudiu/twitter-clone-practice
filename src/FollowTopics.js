@@ -11,7 +11,7 @@ function FollowTopics({ topicTitle, topicDescription }) {
         </div>
         <div className="followTopics__header--description">{topicDescription}</div>
       </div>
-      <div className="followButton">Follow</div>
+      <div className="followButtonTopic">Follow</div>
       <div className="removeTopic">
         <CloseIcon />
       </div>

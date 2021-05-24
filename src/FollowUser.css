@@ -5,6 +5,7 @@
   padding: 15px 10px 15px 20px;
 }
 
+
 .followUserContainer:not(:last-child) {
   border-bottom: 1px solid var(--borderMain);
 }
@@ -27,22 +28,6 @@
   width: 58px;
 }
 
-.tweetButton {
-  display: block;
-  background-color: var(--twitter-color);
-  border: 0;
-  border-radius: 30px;
-  padding: 20px 80px;
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-}
-
-.tweetButton:hover {
-  filter: brightness(0.94);
-  transition: color 0.1s ease-out;
-}
-
 .usernameContainer {
   display: flex;
   flex-direction: column;
@@ -56,4 +41,56 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.followButtonUser {
+  display: block;
+  color: var(--twitter-color);
+  border: 1px solid var(--twitter-color);
+  text-align: center;
+  border-radius: 20px;
+  font-weight: 800;
+  padding: 8px 10px;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.followButtonUser:hover {
+  background-color: #e8f5fe;
+}
+
+@media only screen and (max-width: 1200px) {
+  .followUserContainer {
+    display: grid;
+    grid-template-columns:58px 150px max-content;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+
+  .usernameContainer > div,
+  .usernameContainer > div > h3 {
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .followUserContainer {
+    display: grid;
+    grid-template-columns:58px 80px max-content;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+
+  .usernameContainer > div,
+  .usernameContainer > div > h3 {
+    max-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }

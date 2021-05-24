@@ -11,7 +11,7 @@ function FollowUser({avatarURL, name, username}) {
         <div><h3>{name}</h3></div>
         <div>@{username}</div>
       </div>
-      <div className="followButton">Follow</div>
+      <div className="followButtonUser">Follow</div>
     </div>
   );
 }

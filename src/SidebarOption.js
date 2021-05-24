@@ -1,11 +1,16 @@
 import React from 'react';
 import './SidebarOption.css';
+import { useMediaQuery } from 'react-responsive';
 
 function SidebarOption({ active, text, Icon }) {
+  const brakepointDesktop = useMediaQuery({
+    query: '(min-device-width: 1280px)'
+  });
+
   return (
-    <div className={`sidebarOption ${active ? 'sidebarOption--active' : ""}`}>
+    <div className={`sidebarOption ${active ? 'sidebarOption--active' : ''}`}>
       <Icon />
-      <h2>{text}</h2>
+      {brakepointDesktop && <h2>{text}</h2>}
     </div>
   );
 }
