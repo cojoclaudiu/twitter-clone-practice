@@ -28,12 +28,12 @@ function Feed() {
 
       <Post avatarURL={`https://pbs.twimg.com/profile_images/557940120184041473/bFyXy8Pu_400x400.jpeg`} displayName={`Rich Harris`} username={`Rich_Harris`} timestamp={`2`} bodyText={`Open sourceror. I make graphics at the @nytimes`} />
 
-      <Post avatarURL={`https://pbs.twimg.com/profile_images/1287132544333357057/5D1E3q7o_400x400.jpg`} displayName={`Svelte Society`} username={`@SvelteSociety`} timestamp={`20`} bodyText={`The Global @sveltejs Community!`} />
+      <Post avatarURL={`https://pbs.twimg.com/profile_images/1287132544333357057/5D1E3q7o_400x400.jpg`} displayName={`Svelte Society`} username={`SvelteSociety`} timestamp={`20`} bodyText={`The Global @sveltejs Community!`} />
       <Post avatarURL={`https://pbs.twimg.com/profile_images/1234528105819189248/b6F1hk_6_400x400.jpg`} displayName={`MongoDB`} username={`MongoDB`} timestamp={`1`} bodyText={`For the ones who dream big & think ahead to create the things we can’t live without.`} />
 
-      <Post avatarURL={`https://pbs.twimg.com/profile_images/1299792556205600768/13p7KQys_400x400.jpg`} displayName={`Trish`} username={`@trishtrashers`} timestamp={`4`} bodyText={`Dog mom,Actor,Unicef celebrity advocate`} />
+      <Post avatarURL={`https://pbs.twimg.com/profile_images/1299792556205600768/13p7KQys_400x400.jpg`} displayName={`Trish`} username={`trishtrashers`} timestamp={`4`} bodyText={`Dog mom,Actor,Unicef celebrity advocate`} />
 
-      <Post avatarURL={`https://pbs.twimg.com/profile_images/1282020927/magatar_400x400.jpg`} displayName={`Stephen Diehl`} username={`@smdiehl`} timestamp={`20`} bodyText={`Finally got around to updating my large Haskell guide for Modern Haskell. Hope it is useful for a few more years.`} />
+      <Post avatarURL={`https://pbs.twimg.com/profile_images/1282020927/magatar_400x400.jpg`} displayName={`Stephen Diehl`} username={`smdiehl`} timestamp={`20`} bodyText={`Finally got around to updating my large Haskell guide for Modern Haskell. Hope it is useful for a few more years.`} />
       <Post avatarURL={`https://pbs.twimg.com/profile_images/484838569916108801/oCgm29k9_400x400.png`} displayName={`Haskell`} username={`HaskellOrg`} timestamp={`1`} bodyText={`Committed to a welcoming, vibrant & ﬂourishing #Haskell community! Managed by @nikivazou & @jaspervdj on behalf of the http://Haskell.org Committee`} />
 
       <Post
@@ -77,7 +77,7 @@ function Feed() {
         bodyText={`Tag a developer with <1K followers who’s bringing you joy on this website, with a short blurb of what you appreciate about them. 
   (No requirement that they tweet about programming all the time.) If you get tagged, consider tagging someone else too! `}
       />
-      <Post avatarURL={`https://pbs.twimg.com/profile_images/1274526737523564544/9sF1k37k_400x400.jpg`} displayName={`Joe Previte`} username={`@jsjoeio`} timestamp={`1`} bodyText={`Job Alert: A company based here in Phoenix, AZ is hiring a Senior Front-End Developer who knows React & React Native`} />
+      <Post avatarURL={`https://pbs.twimg.com/profile_images/1274526737523564544/9sF1k37k_400x400.jpg`} displayName={`Joe Previte`} username={`jsjoeio`} timestamp={`1`} bodyText={`Job Alert: A company based here in Phoenix, AZ is hiring a Senior Front-End Developer who knows React & React Native`} />
     </section>
   );
 }
