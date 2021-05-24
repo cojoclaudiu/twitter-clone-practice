@@ -97,3 +97,12 @@
   color: #e0245d;
   padding: 10px;
 }
+
+@media only screen and (max-width: 450px) {
+  .postContainer__name {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

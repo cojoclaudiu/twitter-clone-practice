@@ -92,3 +92,19 @@
   padding: 5px;
   cursor: pointer;
 }
+
+
+@media only screen and (max-width: 450px) {
+  .tweetBox__footer {
+    padding:5px
+  }
+
+  .tweetBox__icons {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .tweetBox__icons > svg{
+    margin-left: 5px;
+  }
+}
