@@ -3,6 +3,7 @@ import './SidebarOption.css';
 import { useMediaQuery } from 'react-responsive';
 
 function SidebarOption({ active, text, Icon }) {
+
   const brakepointDesktop = useMediaQuery({
     query: '(min-device-width: 1281px)'
   });

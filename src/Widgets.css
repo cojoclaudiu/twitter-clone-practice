@@ -88,3 +88,9 @@
 .widgetNews__news > h2 {
   font-weight: 900;
 }
+
+@media only screen and (max-width: 999px) {
+  .widgetsContainer {
+    display: none;
+  }
+}
